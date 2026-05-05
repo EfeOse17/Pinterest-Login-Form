@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+svg{
+    display: block;
+    margin: 5px auto;
+}
+fieldset{
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: #7e7e7e 0px 0px 15px;
+}
+h1{
+    text-align: center;
+    font-family: Tahoma;
+}
+#entries{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    align-self: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #7e7e7e;
+    border-radius: 10px;
+}
+#forgot-password{
+    align-self: flex-start;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: rgb(22, 116, 216);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 600;
+}
+#forgot-password:hover{
+    text-decoration: underline;
+    color:  rgb(5, 92, 184);
+}
+button[type="login"]{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(227, 52, 43);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 600;
+    cursor: pointer;
+}
+button[type="login"]:hover{
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+button[type="sign-in"]{
+    position: relative;
+    width: 70%;
+    padding: 10px;
+    background: transparent;
+    color: #000000;
+    border: 1px solid rgb(195, 194, 194);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button[type="sign-in"]:hover{
+    background-color: rgba(195, 194, 194, 0.5);
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.google-btn{
+    position:absolute;
+    left: 15px;
+}
+button[type="sign-in2"]{
+    position: relative;
+    width: 70%;
+    padding: 10px;
+    background: transparent;
+    color: #000000;
+    border: 1px solid rgb(195, 194, 194);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button[type="sign-in2"]:hover{
+    background-color: rgba(195, 194, 194, 0.5);
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.qr-btn{
+    position: absolute;
+    left: 15px;
+}
+#sign-in-options{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 5px;
+}
+#paragraphs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+}
+#fb-notice{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 400;
+}
+#update-login{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 700;
+}
+#sign-up{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 700;
+}
+#get-started{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 700;
+}
+#footer-text{
+    text-align: center;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    color: grey;
+    font-weight: 400;
+}
+#terms, #privacy-policy, #notice-collection{
+    color: rgb(140, 140, 140);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: 500;
+}
